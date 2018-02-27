@@ -27,8 +27,10 @@ wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 bash Anaconda3-5.0.1-Linux-x86_64.sh -b
 echo 'export PATH=~/anaconda3/bin:$PATH' >> ~/.bashrc
 export PATH=~/anaconda3/bin:$PATH
-cd ../deeplearning-conda-setup
+cd ..
+source ~/.bashrc
 conda create --name phenom --file fastai-spec-file.txt
+source activate phenom
 ln -s ~/data ./
 jupyter notebook --generate-config
 echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
