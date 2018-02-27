@@ -36,6 +36,7 @@ https://repo.continuum.io/pkgs/main/linux-64/glib-2.53.6-h5d9569c_2.tar.bz2
 https://repo.continuum.io/pkgs/main/linux-64/gmp-6.1.2-h6c8ec71_1.tar.bz2
 https://repo.continuum.io/pkgs/main/linux-64/gst-plugins-base-1.12.4-h33fb286_0.tar.bz2
 https://repo.continuum.io/pkgs/main/linux-64/gstreamer-1.12.4-hb53b477_0.tar.bz2
+https://repo.continuum.io/pkgs/main/linux-64/h5py-2.7.1-py36h3585f63_0.tar.bz2
 https://repo.continuum.io/pkgs/main/linux-64/hdf5-1.10.1-h9caa474_1.tar.bz2
 https://repo.continuum.io/pkgs/main/linux-64/heapdict-1.0.0-py36_2.tar.bz2
 https://repo.continuum.io/pkgs/free/linux-64/html5lib-0.9999999-py36_0.tar.bz2
