@@ -41,5 +41,5 @@ pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 echo
 echo ---
-echo - YOU NEED TO REBOOT YOUR PAPERSPACE COMPUTER NOW
+echo - YOU NEED TO REBOOT YOUR COMPUTER NOW
 echo ---
