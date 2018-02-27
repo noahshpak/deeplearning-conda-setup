@@ -32,6 +32,7 @@ source ~/.bashrc
 conda create --name phenom --file fastai-spec-file.txt
 source activate phenom
 conda install tensorflow-gpu
+conda install keras
 ln -s ~/data ./
 jupyter notebook --generate-config
 echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
