@@ -31,8 +31,6 @@ cd ..
 source ~/.bashrc
 conda create --name phenom --file fastai-spec-file.txt
 source activate phenom
-conda install tensorflow-gpu
-conda install keras
 ln -s ~/data ./
 jupyter notebook --generate-config
 echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
@@ -41,6 +39,8 @@ echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.
 echo "c.NotebookApp.port = 8888" >> ~/.jupyter/jupyter_notebook_config.py
 pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
+sudo dpkg --configure -a
+sudo apt-get install cuda-9-0
 echo
 echo ---
 echo - YOU NEED TO REBOOT YOUR COMPUTER NOW
