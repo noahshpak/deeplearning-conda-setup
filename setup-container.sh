@@ -41,7 +41,8 @@ pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 sudo dpkg --configure -a
 sudo apt-get install cuda-9-0
-echo
-echo ---
-echo - YOU NEED TO REBOOT YOUR COMPUTER NOW
-echo ---
+echo 'source activate phenom' >> ~/.bashrc
+echo ''
+echo '---'
+echo '- YOU NEED TO REBOOT YOUR COMPUTER NOW'
+echo '---'
